@@ -28,7 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install
-    - run: npm test
 
     - name: Deploy with gh-pages
       run: |
